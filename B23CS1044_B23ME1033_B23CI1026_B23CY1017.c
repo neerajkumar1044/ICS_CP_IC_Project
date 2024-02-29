@@ -6,10 +6,6 @@
 // NxN tic tac toe
 // user against computer
 
-// B23CS1044
-// B23ME1033
-// B23CI1026
-// B23CY1017
 
 int wincomputer(int turn, int n, int a[n][n])
 {
@@ -251,13 +247,13 @@ int winner(int n, int a[n][n], int r)
         }
         if (sumr == 0 || sumc == 0)
         {
-            printf("computer wins \n");
+            printf("computer won \n");
 
             return 1;
         }
         if (sumr == n || sumc == n)
         {
-            printf("you wins \n");
+            printf("you won \n");
 
             return 1;
         }
@@ -271,12 +267,12 @@ int winner(int n, int a[n][n], int r)
 
     if (d1 == 0 || d2 == 0)
     {
-        printf("computer wins \n");
+        printf("computer won \n");
         return 1;
     }
     if (d1 == n || d2 == n)
     {
-        printf("you wins \n");
+        printf("you won \n");
         return 1;
     }
 
